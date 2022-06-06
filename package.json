@@ -1,0 +1,17 @@
+{
+  "name": "neural-network-experiment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test",
+    "build": "mkdir -p ./dist && browserify -d ./index.js > ./dist/index.js",
+    "watch": "mkdir -p ./dist && watchify -d ./index.js -o ./dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "watchify": "^4.0.0"
+  }
+}
